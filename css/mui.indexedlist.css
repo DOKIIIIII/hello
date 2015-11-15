@@ -38,20 +38,6 @@
 .mui-indexed-list-item {
 	padding-right: 45px;
 }
-
-/*.mui-indexed-list-hot {
-	padding-right: 45px;
-	height: 50px;
-}*/
-
-.mui-indexed-list-hot {
-	width: 30%;
-	float: left;
-	margin: 4px 1.5%  ;
-    text-align: center;
-	background-color: #eee;
-}
-
 .mui-ios .mui-indexed-list-group,
 .mui-ios .mui-indexed-list-item,
 .mui-ios .mui-indexed-list-empty-alert {
@@ -77,12 +63,11 @@
 	background-color: #fafafa;
 }
 .mui-indexed-list-bar {
-	width: 35px;
-	height: 50%;
+	width: 23px;
 	background-color: lightgrey;
 	position: absolute;
 	height: 100%;
-	z-index: 9999;
+	z-index: 10;
 	right: 0px;
 	-webkit-transition: .2s;
 }
